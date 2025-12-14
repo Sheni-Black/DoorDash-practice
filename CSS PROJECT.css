@@ -1,0 +1,649 @@
+@font-face {
+        font-family: 'TT NORMS';
+        src: url('TT-Norms-Medium.otf');
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav{
+        width: 100vw;
+        height: 10vh;
+        border: 1px solid black;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        display: none;
+    }
+
+    nav h3{
+        margin: 1rem;
+        color: rgb(235, 23, 0);
+    }
+
+    nav a{
+        display: inline-block;
+        position: absolute;
+    }
+
+    nav a:first-of-type{
+        top: 0.7rem;
+        left: 70rem;
+        text-decoration: none;
+        background-color: rgb(235, 23, 0);
+        color: white;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+
+    nav a:last-of-type{
+        top: 0.7rem;
+        left: 75rem;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        padding: 0.5rem;
+        background-color: white
+    }
+
+
+*{
+    font-family: 'TT NORMS';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.first{
+    position: relative;
+    background-image: url('back.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.first h3{
+    position: absolute;
+    left: 35rem;
+    margin-top: 1rem;
+}
+
+.first a{
+    display: inline-block;
+    position: absolute;
+}
+
+.first a:first-of-type{
+    left: 72rem;
+    top: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.first a:last-of-type{
+    left: 77rem;
+    top: 1rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: white
+}
+
+.first a:nth-child(3){
+    top: 25rem;
+    left: 35rem;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 17rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.first h1{
+    position: relative;
+    top: 16rem;
+    left: 22rem;
+}
+
+.first h6{
+    position: absolute;
+    top: 18.5rem;
+    left: 40rem;
+}
+
+.first input{
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+    width: 27rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.first span:first-of-type{
+    position: absolute;
+    overflow: visible;
+    color: black;
+    top: 21.5rem;
+    left: 33rem;
+    z-index: 1;
+}
+
+.first span:last-of-type{
+    position: absolute;
+    overflow: visible;
+    color: black;
+    top: 25.5rem;
+    left: 36rem;
+    z-index: 1;
+}
+
+.first i{
+    position: absolute;
+    top: 21.5rem;
+    left: 54.2rem;
+}
+
+div{
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: rgb(235, 23, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 20.7rem;
+    left: 53.5rem;
+}
+
+
+.second{
+    margin-left: 3.5rem;
+}
+
+.second article{
+    width: 29vw;
+    height: 70vh;
+    float: left;
+    clear: right;
+    margin-top: 10rem;
+    text-align: justify;
+}
+
+.second > article > *{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.second article:last-of-type img:last-of-type{
+    margin-left: 10rem;
+}
+
+.scooter img{
+    margin-left: 7.2rem;
+}
+
+.scooter a{
+    margin-left: 9rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(235, 23, 0);
+}
+
+.store img{
+    margin-left: 7.2rem;
+}
+
+.store a{
+    margin-left: 7rem;
+    display: inline-block;
+    color: rgb(235, 23, 0);
+    text-decoration: none;
+}
+
+.iphone img{
+    margin-top: 1.7rem;
+}
+
+.iphone a{
+    margin-left: 10rem;
+    display: inline-block;
+    color: rgb(235, 23, 0);
+    text-decoration: none;
+}
+
+.third{
+    width: 100vw;
+    height: 100vh;
+}
+
+.third img{
+    position: absolute;
+    left: 35rem;
+    top: 87rem;
+}
+
+.third h1{
+    margin-block: 12rem 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-inline: 5rem 0rem
+}
+
+.third h1+h3{
+    margin-bottom: 0.7rem;
+    margin-inline: 5rem 0rem
+}
+
+.third h1~p{
+    font-weight: 100;
+    margin-bottom: 0.7rem;
+    margin-inline: 5rem 0rem
+}
+
+.third h3~a{
+    display: inline-block;
+    margin-left: 4.8rem;
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+ .fourth{
+    width: 100vw;
+    height: 100vh;
+    bottom: 10rem;
+    background-color: rgb(255, 243, 240);
+}
+
+.fourth img{
+    position: absolute;
+    top: 122rem;
+    left: 3rem;
+}
+
+
+.fourth h1{
+    margin-block: 10rem 1rem;
+    margin-left: 55rem;
+}
+
+.fourth p{
+    margin-left: 55rem;
+    margin-block: 0rem 1rem;
+}
+
+.fourth a{
+    margin-left: 55rem;
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+.fifth{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-image:url('groceries4.jpg') ;
+    background-repeat: no-repeat;
+    background-image: center;
+    background-size: cover;
+}
+
+.fifth h1{
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+}
+
+.fifth p{
+    margin-bottom: 1rem;
+}
+
+.fifth a{
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+.sixth{
+    width: 100vw;
+    height: 100vh;
+}
+
+.sixth h1{
+    margin-block: 15rem 1rem;
+    margin-inline: 5rem 0rem;
+}
+
+.sixth img{
+    position: absolute;
+    top: 200rem;
+    left: 33rem;
+}
+
+.sixth p{
+    margin-inline: 5rem;
+    margin-bottom: 1rem;
+}
+
+.sixth a{
+    margin-inline: 5rem 0rem;
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    
+}
+
+.seventh{
+    width: 100vw;
+    height: 260vh;
+    background-color: rgb(255, 243, 240);
+}
+
+.seventh h1:first-child{
+    text-align: center;
+}
+
+.seventh article{
+    position: absolute;
+    overflow: visible;
+}
+
+.seventh article:last-of-type{
+    text-align: center;
+    top: 290rem;
+    left: 39rem;
+}
+
+.seventh article:nth-last-child(2){
+    text-align: center;
+    top: 290rem;
+    left: 1rem;
+}
+
+.seventh article:nth-last-child(3){
+    text-align: center;
+    top: 243rem;
+    left: 40rem;
+}
+
+.seventh article:nth-last-child(4){
+    text-align: center;
+    top: 243rem;
+    left: 1rem;
+}
+
+.seventh article  p{
+    margin-block: 1.5rem;
+}
+
+.seventh a{
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+.eight{
+    width: 100vw;
+    height: 100vh;
+}
+
+.eight > h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.eight img{
+    position: absolute;
+    top: 349rem;
+    left: 35rem;
+}
+
+.eight > article{
+    margin-block: 8rem 0rem;
+    margin-inline: 5rem 0rem;
+}
+
+.eight > article p{
+    margin-block: 1rem;
+}
+
+.eight a{
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.nine{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 243, 240);;
+}
+
+.nine img{
+    position: absolute;
+    top: 383rem;
+    left: 5rem;
+}
+
+.nine > article{
+    margin-block: 13rem 0rem;
+    margin-inline: 57rem 0rem;
+}
+
+.nine > article p{
+    margin-block: 1rem;
+   
+}
+
+.nine a{
+    color: white;
+    background-color: rgb(235, 23, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.ten{
+    width: 100vw;
+    height: auto;
+}
+
+.ten h1{
+    text-align: center;
+    margin-block: 2rem;
+}
+
+.ten p{
+    display: inline-block;
+    padding-inline: 10rem;
+    margin-left: 3rem;
+}
+
+.ten p:first-of-type{
+    border-bottom: 2px solid black;
+}
+
+.ten article p{
+    border: none;
+}
+
+.eleven{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 1rem;
+    overflow: visible;
+}
+
+.eleven p{
+    width: 9rem;
+    display: inline-block;
+    text-align: left;
+    line-height: 3rem;
+    margin-left: 10rem;
+}
+
+.eleven p:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.eleven h3{
+    text-align: center;
+    margin-block: 3rem;
+}
+
+footer{
+    background-color: black;
+}
+
+.foot1{
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    margin-left: 1rem;
+}
+
+.foot1 h3{
+    margin-block: 1rem;
+}
+
+.foot1 p{
+    width: 16rem;
+    margin-right: 5rem;
+    display: inline-block;
+    text-align: left;
+    color: grey;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+
+
+.foot2{
+    width: 10vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    overflow: visible;
+    margin-left: 1rem;
+}
+
+.foot2 h3{
+    margin-block: 1rem;
+}
+
+
+.foot2 p{
+    width: 16rem;
+    margin-right: 5rem;
+    display: inline-block;
+    text-align: left;
+    color: grey;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.foot3{
+    width: 20vw;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    overflow: visible;
+    margin-left: 1rem;
+    position: relative;
+}
+
+
+
+.foot3 p{
+    width: 16rem;
+    margin-right: 5rem;
+    display: inline-block;
+    text-align: left;
+    color: grey;
+    font-size: 15px;
+    line-height: 1.5rem;
+    left: 5rem;
+}
+
+.foot3 article{
+    position: absolute;
+    left: 15rem;
+    bottom: 33rem;
+    overflow: visible;
+}
+
+.foot4{
+    width: 20vw;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    overflow: visible;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.foot4 h3{
+    margin-block: 1rem;
+}
+
+.foot4 p{
+    width: 16rem;
+    margin-right: 5rem;
+    display: inline-block;
+    text-align: left;
+    color: grey;
+    font-size: 15px;
+    line-height: 1.5rem;
+    left: 5rem;
+}
+
+.foot4 article{
+    position: absolute;
+    left: 30rem;
+    bottom: 42rem;
+    overflow: visible;
+}
+
+.last{
+    width: 3.9vw;
+    height: 6vh;
+    position: absolute;
+    top: 0.5rem;
+    left: 31.5rem;
+}
+
+
